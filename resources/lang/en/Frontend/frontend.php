@@ -86,4 +86,5 @@ return [
     'Store_as_file' => 'Store as file',
     'Csv' => 'Csv',
     'Html' => 'Html',
+    'export_with_heading_row' => 'Export with heading row',
 ];

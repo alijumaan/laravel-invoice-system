@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Exports\InvoicesExport;
+use App\Exports\InvoicesExportHeading;
 use App\Exports\InvoicesExportView;
 use App\Mail\SendInvoice;
 use App\Models\Invoice;
@@ -221,6 +222,11 @@ class InvoiceController extends Controller
         $extension = strtolower($format);
         if (in_array($format, ['Mpdf', 'Dompdf', 'Tcpdf'])) $extension = 'pdf';
         return Excel::download(new InvoicesExport(), 'invoices.'.$extension, $format);
+    }
+
+    public function export_with_heading_row()
+    {
+        return Excel::download(new InvoicesExportHeading(), 'invoices.xlsx');
     }
 }
 

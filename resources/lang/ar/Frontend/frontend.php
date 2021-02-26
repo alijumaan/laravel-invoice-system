@@ -85,5 +85,6 @@ return [
     'Store_as_file' => 'حفظ كملف',
     'Csv' => 'Csv',
     'Html' => 'Html',
+    'export_with_heading_row' => 'تصدير بالعنوان'
 
 ];

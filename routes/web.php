@@ -27,5 +27,6 @@ Route::get('invoices/export-all', [InvoiceController::class, 'export_all'])->nam
 Route::get('invoices/export-view', [InvoiceController::class, 'export_view'])->name('invoices.export_view');
 Route::get('invoices/export-store', [InvoiceController::class, 'export_store'])->name('invoices.export_store');
 Route::get('invoices/export-format/{format}', [InvoiceController::class, 'export_format'])->name('invoices.export_format');
+Route::get('invoices/export-heading', [InvoiceController::class, 'export_with_heading_row'])->name('invoices.export_with_heading_row');
 
 Route::resource('invoices', InvoiceController::class);
