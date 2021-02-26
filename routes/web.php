@@ -25,5 +25,7 @@ Route::get('invoices/send-email/{id}',  [InvoiceController::class, 'send_to_emai
 
 Route::get('invoices/export-all', [InvoiceController::class, 'export_all'])->name('invoices.export');
 Route::get('invoices/export-view', [InvoiceController::class, 'export_view'])->name('invoices.export_view');
+Route::get('invoices/export-store', [InvoiceController::class, 'export_store'])->name('invoices.export_store');
+Route::get('invoices/export-format/{format}', [InvoiceController::class, 'export_format'])->name('invoices.export_format');
 
 Route::resource('invoices', InvoiceController::class);

@@ -83,4 +83,7 @@ return [
     'Click here to request another' => 'Click here to request another',
     'Export_all_customers' => 'Export all customers',
     'Export_this_table' => 'Export this table',
+    'Store_as_file' => 'Store as file',
+    'Csv' => 'Csv',
+    'Html' => 'Html',
 ];

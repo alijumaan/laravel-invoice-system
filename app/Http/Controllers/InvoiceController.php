@@ -209,5 +209,18 @@ class InvoiceController extends Controller
     {
         return Excel::download(new InvoicesExportView(), 'invoices.xlsx');
     }
+
+    public function export_store()
+    {
+        Excel::store(new InvoicesExport(), 'invoices-'.now()->toDateString().'.xlsx', 'public');
+        return 'OK';
+    }
+
+    public function export_format($format)
+    {
+        $extension = strtolower($format);
+        if (in_array($format, ['Mpdf', 'Dompdf', 'Tcpdf'])) $extension = 'pdf';
+        return Excel::download(new InvoicesExport(), 'invoices.'.$extension, $format);
+    }
 }
 

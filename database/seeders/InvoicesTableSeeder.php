@@ -64,7 +64,7 @@ class InvoicesTableSeeder extends Seeder
     }
 
 
-    # Generate Faker Numbers
+    // Generate Faker Numbers
     public function generateNumber($strength = 14)
     {
         $permitted_chars = '0123456789';
