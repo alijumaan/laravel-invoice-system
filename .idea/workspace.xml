@@ -22,7 +22,25 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="39c8c1e1-4deb-44f5-9314-5f9cb107146a" name="Default Changelist" comment="" />
+    <list default="true" id="39c8c1e1-4deb-44f5-9314-5f9cb107146a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Exports/InvoicesExportView.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/frontend/table.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/framework/laravel-excel/laravel-excel-9YG3FAym4CTqy69UjMVmR8tY5SwFxRhN.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/framework/laravel-excel/laravel-excel-AiqNYDOwNjnOWLtRyEW0geYI2XGK6g9r.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/framework/laravel-excel/laravel-excel-Bvso8Lq04PSIfISV5u30rBJdRk3JM4uX.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/framework/laravel-excel/laravel-excel-I8zY6odA3eEqsmDnh2J45MpbICl7xZUe.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/framework/laravel-excel/laravel-excel-KLHLvfKUfK8uC1TOtBm1EAXSkmMrDMcg.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/framework/laravel-excel/laravel-excel-NWwWBhWNhrSjTA219bPqFurmX8725Ft3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/framework/laravel-excel/laravel-excel-ayQSTe2s5M4p90cRc18T7xHHjrUaYYNc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/framework/laravel-excel/laravel-excel-kk2sQ8UFrv9JOqC0IfsYatTKY6sadIa4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/framework/laravel-excel/laravel-excel-vBDGC4bwPHsa7aTdOkLnuzNM8nTSGE6I.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/InvoiceController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/InvoiceController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/ar/Frontend/frontend.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/ar/Frontend/frontend.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/en/Frontend/frontend.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en/Frontend/frontend.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -264,7 +282,8 @@
       <workItem from="1604241590661" duration="385000" />
       <workItem from="1604262246207" duration="13000" />
       <workItem from="1604298717871" duration="4223000" />
-      <workItem from="1614340594237" duration="3856000" />
+      <workItem from="1614340594237" duration="4040000" />
+      <workItem from="1614344836014" duration="2505000" />
     </task>
     <servers />
   </component>

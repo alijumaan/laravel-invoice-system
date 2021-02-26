@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Exports\InvoicesExport;
+use App\Exports\InvoicesExportView;
 use App\Mail\SendInvoice;
 use App\Models\Invoice;
 use Illuminate\Http\Request;
@@ -199,10 +200,14 @@ class InvoiceController extends Controller
         }
     }
 
-    public function exportAll()
+    public function export_all()
     {
         return Excel::download(new InvoicesExport(), 'invoices.xlsx');
     }
 
+    public function export_view()
+    {
+        return Excel::download(new InvoicesExportView(), 'invoices.xlsx');
+    }
 }
 
