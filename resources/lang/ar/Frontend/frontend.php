@@ -80,5 +80,6 @@ return [
     'Before proceeding, please check your email for a verification link.' => 'قبل المتابعة ، يرجى التحقق من بريدك الإلكتروني للحصول على رابط التحقق.',
     'If you did not receive the email' => 'إذا لم تستلم البريد الإلكتروني',
     'Click here to request another' => 'انقر هنا لطلب آخر',
+    'Export_all_customers' => 'تصدير كل الزبائن'
 
 ];

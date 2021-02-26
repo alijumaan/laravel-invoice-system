@@ -81,4 +81,5 @@ return [
     'Before proceeding, please check your email for a verification link.' => 'Before proceeding, please check your email for a verification link.',
     'If you did not receive the email' => 'If you did not receive the email',
     'Click here to request another' => 'Click here to request another',
+    'Export_all_customers' => 'Export all customers'
 ];

@@ -166,6 +166,7 @@ return [
          * Package Service Providers...
          */
         Meneses\LaravelMpdf\LaravelMpdfServiceProvider::class,
+        Maatwebsite\Excel\ExcelServiceProvider::class,
 
         /*
          * Application Service Providers...
@@ -230,6 +231,7 @@ return [
         'View' => Illuminate\Support\Facades\View::class,
 
         'PDF' => Meneses\LaravelMpdf\Facades\LaravelMpdf::class,
+        'Excel' => Maatwebsite\Excel\Facades\Excel::class,
 
     ],
 

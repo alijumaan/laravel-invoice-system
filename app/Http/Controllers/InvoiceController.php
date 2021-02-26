@@ -2,11 +2,13 @@
 
 namespace App\Http\Controllers;
 
+use App\Exports\InvoicesExport;
 use App\Mail\SendInvoice;
 use App\Models\Invoice;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Route;
+use Maatwebsite\Excel\Facades\Excel;
 use PDF;
 use PHPUnit\Exception;
 
@@ -195,6 +197,11 @@ class InvoiceController extends Controller
                 'alert-type' => 'danger'
             ]);
         }
+    }
+
+    public function exportAll()
+    {
+        return Excel::download(new InvoicesExport(), 'invoices.xlsx');
     }
 
 }

@@ -4,10 +4,11 @@
 
     <div class="row justify-content-center">
         <div class="col-12">
+            <a href="{{ route('invoices.create') }}" class="btn btn-primary mb-3"><i class="fa fa-plus"></i> {{ __('Frontend/frontend.Add_invoice') }}</a>
             <div class="card">
                 <div class="card-header d-flex">
                     <h2>{{ __('Frontend/frontend.Invoices') }}</h2>
-                    <a href="{{ route('invoices.create') }}" class="btn btn-primary ml-auto"><i class="fa fa-plus"></i> {{ __('Frontend/frontend.Add_invoice') }}</a>
+                    <a href="{{ route('invoices.export') }}" class="btn btn-success ml-auto"><i class="fa fa-file-pdf"></i> {{ __('Frontend/frontend.Export_all_customers') }}</a>
                 </div>
                     <div class="table-responsive">
                         <table class="table card-table">

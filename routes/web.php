@@ -22,4 +22,5 @@ Route::get('change-language/{locale}',  [GeneralController::class, 'changeLangua
 Route::get('invoices/print/{id}',       [InvoiceController::class, 'print'])->name('invoices.print');
 Route::get('invoices/pdf/{id}',         [InvoiceController::class, 'pdf'])->name('invoices.pdf');
 Route::get('invoices/send-email/{id}',  [InvoiceController::class, 'send_to_email'])->name('invoices.send_to_email');
+Route::get('invoices/export-all', [InvoiceController::class, 'exportAll'])->name('invoices.export');
 Route::resource('invoices', InvoiceController::class);
