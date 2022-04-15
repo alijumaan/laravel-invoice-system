@@ -6,7 +6,6 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-
     <title>{{ __('Frontend/frontend.Invoice_system') }} | @yield('title')</title>
 
     <link rel="shortcut icon" href="{{ asset('favicon.ico') }}" type="image/x-icon">
@@ -23,8 +22,6 @@
     @endif
 
     @yield('style')
-
-
 </head>
 <body>
 
@@ -83,18 +80,15 @@
     <footer>
         <div class="container">
             <div class="row">
-
-                <div class="col-sm-10 col-md-8 col-lg-6">
-
-                </div>
+                <div class="col-sm-10 col-md-8 col-lg-6"></div>
             </div>
         </div>
     </footer>
     <!-- End Footer -->
 
     <!-- Start Socket -->
-    <div class="text-primary text-center py-3">
-        <p>&copy; <a href="https://alijumaan.com" target="_blank">aliumaan.com</a></p>
+    <div class="text-center py-3">
+        <p>Created by <span class="text-primary "><a href="https://alialqahtani.sa" target="_blank">Ali</a></span></p>
     </div>
     <!-- End Socket -->
 </div>

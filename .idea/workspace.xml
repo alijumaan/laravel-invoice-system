@@ -23,17 +23,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="39c8c1e1-4deb-44f5-9314-5f9cb107146a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/invoice-system.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/invoice-system.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/laravel-excel/laravel-excel-9YG3FAym4CTqy69UjMVmR8tY5SwFxRhN.html" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/laravel-excel/laravel-excel-9YG3FAym4CTqy69UjMVmR8tY5SwFxRhN.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/laravel-excel/laravel-excel-AiqNYDOwNjnOWLtRyEW0geYI2XGK6g9r.html" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/laravel-excel/laravel-excel-AiqNYDOwNjnOWLtRyEW0geYI2XGK6g9r.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/laravel-excel/laravel-excel-Bvso8Lq04PSIfISV5u30rBJdRk3JM4uX.html" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/laravel-excel/laravel-excel-Bvso8Lq04PSIfISV5u30rBJdRk3JM4uX.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/laravel-excel/laravel-excel-I8zY6odA3eEqsmDnh2J45MpbICl7xZUe.html" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/laravel-excel/laravel-excel-I8zY6odA3eEqsmDnh2J45MpbICl7xZUe.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/laravel-excel/laravel-excel-KLHLvfKUfK8uC1TOtBm1EAXSkmMrDMcg.html" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/laravel-excel/laravel-excel-KLHLvfKUfK8uC1TOtBm1EAXSkmMrDMcg.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/laravel-excel/laravel-excel-NWwWBhWNhrSjTA219bPqFurmX8725Ft3.html" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/laravel-excel/laravel-excel-NWwWBhWNhrSjTA219bPqFurmX8725Ft3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/laravel-excel/laravel-excel-ayQSTe2s5M4p90cRc18T7xHHjrUaYYNc.html" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/laravel-excel/laravel-excel-ayQSTe2s5M4p90cRc18T7xHHjrUaYYNc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/laravel-excel/laravel-excel-kk2sQ8UFrv9JOqC0IfsYatTKY6sadIa4.html" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/laravel-excel/laravel-excel-kk2sQ8UFrv9JOqC0IfsYatTKY6sadIa4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/laravel-excel/laravel-excel-vBDGC4bwPHsa7aTdOkLnuzNM8nTSGE6I.html" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/laravel-excel/laravel-excel-vBDGC4bwPHsa7aTdOkLnuzNM8nTSGE6I.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/laravel-excel/laravel-excel-ySj3sjOEO1e0xF9VOGa76GmySPrjhHZ5.html" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/laravel-excel/laravel-excel-ySj3sjOEO1e0xF9VOGa76GmySPrjhHZ5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/TrustProxies.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/TrustProxies.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +112,6 @@
       <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
       <path value="$PROJECT_DIR$/vendor/vlucas/phpdotenv" />
       <path value="$PROJECT_DIR$/vendor/fruitcake/laravel-cors" />
-      <path value="$PROJECT_DIR$/vendor/fideloper/proxy" />
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-grapheme" />
       <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher-contracts" />
       <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
@@ -191,6 +186,18 @@
       <path value="$PROJECT_DIR$/vendor/phpoffice/phpspreadsheet" />
       <path value="$PROJECT_DIR$/vendor/markbaker/complex" />
       <path value="$PROJECT_DIR$/vendor/psr/http-factory" />
+      <path value="$PROJECT_DIR$/vendor/symfony/mailer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php81" />
+      <path value="$PROJECT_DIR$/vendor/laravel/serializable-closure" />
+      <path value="$PROJECT_DIR$/vendor/dflydev/dot-access-data" />
+      <path value="$PROJECT_DIR$/vendor/spatie/ignition" />
+      <path value="$PROJECT_DIR$/vendor/spatie/laravel-ignition" />
+      <path value="$PROJECT_DIR$/vendor/spatie/flare-client-php" />
+      <path value="$PROJECT_DIR$/vendor/spatie/backtrace" />
+      <path value="$PROJECT_DIR$/vendor/league/config" />
+      <path value="$PROJECT_DIR$/vendor/fruitcake/php-cors" />
+      <path value="$PROJECT_DIR$/vendor/nette/schema" />
+      <path value="$PROJECT_DIR$/vendor/nette/utils" />
     </include_path>
   </component>
   <component name="ProjectId" id="1jKLA2VIIDrJTGcQlXO6qCcmYGF" />
@@ -206,7 +213,6 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -280,6 +286,8 @@
       <workItem from="1614344836014" duration="9276000" />
       <workItem from="1631690738594" duration="3365000" />
       <workItem from="1631703986261" duration="744000" />
+      <workItem from="1650061812470" duration="1537000" />
+      <workItem from="1650063368351" duration="659000" />
     </task>
     <servers />
   </component>
