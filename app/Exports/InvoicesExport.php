@@ -12,7 +12,6 @@ class InvoicesExport implements FromCollection
     */
     public function collection()
     {
-//        return Invoice::all();
         return Invoice::select('customer_name', 'customer_email', 'customer_mobile', 'sub_total', 'total_due')
             ->orderBy('customer_name')
             ->get();

@@ -47,6 +47,7 @@ return [
     'Updated_failed' => 'فشل في عميلة التعديل',
     'Deleted_successfully' => 'تم الحذف بنجاح',
     'Send_successfully' => 'تم الإرسال بنجاح',
+    'done' => 'تم',
     'Send_failed' => 'فشل في عميلة الإرسال',
     'Something_was_wrong' => 'حدث خطأ ما. نرجو المحالة لاحقا',
 

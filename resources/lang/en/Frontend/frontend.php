@@ -47,6 +47,7 @@ return [
     'Updated_failed' => 'Updated Failed',
     'Deleted_successfully' => 'Deleted Successfully',
     'Send_successfully' => 'Send Successfully',
+    'done' => 'Done',
     'Send_failed' => 'Send Failed',
     'Deleted_failed' => 'Deleted Failed',
     'Something_was_wrong' => 'Something was wrong, Try again later',
